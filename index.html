@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe!</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script src="jquery-2.0.2.min.js"></script>
+        <script type='text/javascript' src='script.js'></script>
+    </head>
+    <body>
+        <div class="vicnote">
+            <span class="winner"></span> wins the game!!!
+        </div>
+        <div class="state">
+            <div class="turn x">
+                It is player <span class="currentplayer">X</span>'s turn now
+            </div>
+        </div>
+        <table class="board">
+            <tr>
+                <td>
+                    <span class="squareposx">0</span>
+                    <span class="squareposy">0</span>
+                    <span class="content"></span>
+                </td>
+                <td>
+                    <span class="squareposx">0</span>
+                    <span class="squareposy">1</span>
+                    <span class="content"></span>
+                </td>
+                <td>
+                    <span class="squareposx">0</span>
+                    <span class="squareposy">2</span>
+                    <span class="content"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="squareposx">1</span>
+                    <span class="squareposy">0</span>
+                    <span class="content"></span>
+                </td>
+                <td>
+                    <span class="squareposx">1</span>
+                    <span class="squareposy">1</span>
+                    <span class="content"></span>
+                </td>
+                <td>
+                    <span class="squareposx">1</span>
+                    <span class="squareposy">2</span>
+                    <span class="content"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="squareposx">2</span>
+                    <span class="squareposy">0</span>
+                    <span class="content"></span>
+                </td>
+                <td>
+                    <span class="squareposx">2</span>
+                    <span class="squareposy">1</span>
+                    <span class="content"></span>
+                </td>
+                <td>
+                    <span class="squareposx">2</span>
+                    <span class="squareposy">2</span>
+                    <span class="content"></span>
+                </td>
+            </tr>
+        </table>
+        <button class="newgame">
+            Start a new game!
+        </button>
+    </body>
+</html>
